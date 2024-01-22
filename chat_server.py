@@ -22,7 +22,7 @@ server.listen(100)
 list_of_clients=[]
 
 def clientthread(conn, addr):
-    conn.send("Welcome to this chatroom!")
+    conn.send(100)
     #sends a message to the client whose user object is conn
     while True:
             try:     
