@@ -7,7 +7,7 @@ HEADER_LENGTH = 10
 
 # defining the IP address and Port Number.
 IP = "127.0.0.1"
-PORT = 1234
+PORT = 669
 
 """
 Creating a server socket and providing the address family (socket.AF_INET) and type of connection (socket.SOCK_STREAM), i.e. using TCP connection.

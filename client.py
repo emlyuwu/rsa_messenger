@@ -7,8 +7,8 @@ import errno
 HEADER_LENGTH = 10
 
 # defining the IP address and Port Number.
-IP = "127.0.0.1"
-PORT = 1234
+IP = input("Server?\n")
+PORT = 669
 
 # Getting the name of the client.
 my_username = input("Username: ")
